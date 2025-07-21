@@ -56,7 +56,7 @@
 % Sections formatting
 \titleformat{\section}{
   \vspace{-4pt}\scshape\raggedright\large
-}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+}{}{0em}{}[\color{black}\titlerule \vspace{-10pt}]
 
 % Ensure that generate pdf is machine readable/ATS parsable
 \pdfgentounicode=1
@@ -71,7 +71,7 @@
 
 \newcommand{\resumeSubheading}[4]{
   \vspace{-2pt}\item
-    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+    \begin{tabular*}{0.99\textwidth}[t]{l@{\extracolsep{\fill}}r}
       \textbf{#1} & #2 \\
       \textsl{\small#3} & \textsl{\small #4} \\
     \end{tabular*}\vspace{-7pt}
@@ -79,14 +79,14 @@
 
 \newcommand{\resumeSubSubheading}[2]{
     \item
-    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+    \begin{tabular*}{\textwidth}[t]{l@{\extracolsep{\fill}}r}
       \text{\small#1} & \text{\small #2} \\
     \end{tabular*}\vspace{-9pt}
 }
 
 \newcommand{\resumeProjectHeading}[2]{
     \item
-    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+    \begin{tabular*}{\textwidth}[t]{l@{\extracolsep{\fill}}r}
       #1 & #2 \\
     \end{tabular*}\vspace{-7pt}
 }
@@ -113,7 +113,7 @@
 % \end{tabular*}
 
 \begin{center}
-    \textbf{\Huge \scshape Jessica Liu} \\ \vspace{1pt}
+    \textbf{\Huge Jessica Liu} \\ \vspace{1pt}
     \small 
         (470) 380-3707 $|$
         \href{mailto:jessicatracyliu@gmail.com}{jessicatracyliu@gmail.com} $|$
@@ -128,16 +128,16 @@
     \resumeSubheading
       {Georgia Institute of Technology}{Aug. 2023 -- May 2027}
       {B.S. in Computer Science (Specializing in Artificial Intelligence and Information \& Networks)}{GPA: 4.00/4.00}
-    \vspace{-0.55cm}
+    \vspace{-1.15cm}
     \resumeSubheading
       {}{}
       {B.S. in Mathematics}{}
 
-    \vspace{0.1cm}
+    \vspace{-0.5cm}
     \resumeSubheading
-      {Relevant Coursework}{}
+      {\small Relevant Coursework}{}
       {}{}
-      \vspace{-0.5cm}
+      \vspace{-0.7cm}
       \resumeItemListStart
         \resumeItem
             {\textsl{Computer Science:} Data Structures \& Algorithms, Design \& Analysis of Algorithms, Object-Oriented Design \& Analysis, Computer Architecture, Networking, Artificial Intelligence}
@@ -159,7 +159,7 @@
             {Created an agentic AI application using Model Context Protocol to orchestrate augmented reality and mapping tools to recommend real estate properties and answer detailed spatial queries about locations and interiors.}
       \resumeItemListEnd
 
-    \vspace{0.1cm}
+    \vspace{-0.25cm}
     \resumeSubheading
       {Teaching Assistant}{January 2024 -- Present}
       {Georgia Institute of Technology $|$ College of Computing}{Atlanta, GA}
@@ -172,7 +172,7 @@
             {\textbf{CS 1331 Object-Oriented Programming} (Spring 2024 -- Fall 2024): Developed original teaching strategies, materials, and exercises for continued use in future semesters by 30+ TAs across 12 recitation sections attended by 800+ students; teach weekly recitations; host 6+ office hours per week.}
       \resumeItemListEnd
 
-    \vspace{0.1cm}
+    \vspace{-0.25cm}
     \resumeSubheading
       {Software Engineering Intern}{June 2022 -- Aug. 2022}
       {Alpha Models, Inc.}{Alpharetta, GA}
@@ -209,6 +209,7 @@
 
 %-----------TECHNICAL SKILLS-----------
 \section{Technical Skills}
+\vspace{0.1cm}
  \begin{itemize}[leftmargin=*, label={}]
     \small\item 
     \begin{tabular*}{0.97\textwidth}[t]{l@{\hspace{0.25cm}}l}
